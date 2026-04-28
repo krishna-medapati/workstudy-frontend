@@ -115,7 +115,7 @@ export default function Students() {
                   <td style={{padding:'14px 16px'}}><span style={{padding:'4px 10px',borderRadius:'20px',fontSize:'12px',fontWeight:'500',background:sc.bg,color:sc.color}}>{status}</span></td>
                   <td style={{padding:'14px 16px'}}>
                     <button onClick={()=>openEdit(st)} style={{background:'transparent',border:'none',cursor:'pointer',fontSize:'15px',padding:'4px'}}>✏️</button>
-                    <button onClick={()=>handleDelete(st._id)} style={{background:'transparent',border:'none',cursor:'pointer',fontSize:'15px',padding:'4px'}}>🗑️</button>
+                    <button onClick={()=>handleDelete(st.id)} style={{background:'transparent',border:'none',cursor:'pointer',fontSize:'15px',padding:'4px'}}>🗑️</button>
                   </td>
                 </tr>
               );
